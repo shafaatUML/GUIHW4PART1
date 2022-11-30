@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>MultTable</title>
+    <script src="./js/js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <p>
+        <h1> MULTIPLICATION    TABLE</h1>
+    </p>
+    <!-- FORM -->
+    <!-- Y = col, X = row -->
+    <form id="multform">
+        <label>MinX<br></label><input type="text" id="minX" name="minX"><br>
+        <label>MaxX<br></label><input type="text" id="maxX"><br>
+        <label>MinY<br></label><input type="text" id="minY"><br>
+        <label>MaxY<br></label><input type="text" id="maxY"><br>
+        <input type="submit" value="Calculate">
+    </form>
+    <p>
+        <div id="Instructions">
+        </div>
+    </p>
+<div class = "scroll">
+<div id = "multtable"></div>
+</div>
+</body>
+</html>
